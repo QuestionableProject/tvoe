@@ -118,7 +118,8 @@
 .readmore__block {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  gap: 20px 10px;
+  flex-wrap: wrap;
 }
 
 /* incidents */
@@ -126,5 +127,32 @@
 .incidents__block {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px 10px;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1330px) {
+  .tape {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .tape {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .preview {
+    flex-direction: column;
+  }
+  .tape {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .tape {
+    width: 300px;
+  }
 }
