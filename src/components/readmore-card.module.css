@@ -1,0 +1,36 @@
+.readmore__card {
+    width: 250px; 
+    background-color: var(--color-lightgray);
+    border-radius: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.head p:last-child{
+    font-size: var(--font-size-12px);
+    font-weight: 400;
+    opacity: .8;
+}
+.topic {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: var(--color-orange);
+    color: white;
+    font-size: 16px;
+    font-size: var(--font-size-12px);
+    font-weight: 500;
+}
+.description {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: var(--font-size-16px);
+    font-weight: 500;
+    height: 55px;
+    overflow: hidden;
+}

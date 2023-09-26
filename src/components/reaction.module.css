@@ -1,0 +1,12 @@
+.reactions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: var(--font-size-14px);
+    font-weight: 400;
+}
+.reactions div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}

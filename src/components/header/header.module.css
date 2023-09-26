@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: white;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    color: var(--color-darkgray);
+    padding: 0 50px;
+}
+.header ul {
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+}
+.header li {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-lightgray);
+    border-radius: 15px;
+    padding: 5px 15px;
+    gap: 5px;
+}
+.header div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo {
+    margin-right: 105px;
+    font-weight: 500;
+    font-family: var(--font-inter);
+    font-weight: 500;
+}

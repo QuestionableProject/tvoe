@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    background-color: var(--color-gray);
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+}
+
+.footer__logo div {
+    font-family: var(--font-montserrat);
+    font-size: 44px;
+    margin-bottom: 25px;
+}
+.footer__logo p {
+    font-size: var(--font-size-12px);
+}
+.footer button {
+    background-color: var(--color-orange);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: auto;
+    color: white;
+    font-weight: 600;
+    font-size: var(--font-size-14px);
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--font-size-16px);
+    font-weight: 400;
+}
+.footer li {
+    cursor: pointer;
+}
+.contact {
+    font-size: var(--font-size-14px);
+}
+.contact div {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 15px;
+    font-size: var(--font-size-12px);
+}
+.contact a {
+    color: var(--color-orange);
+    text-decoration: underline;
+}

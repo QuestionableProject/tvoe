@@ -1,0 +1,45 @@
+/* advertisement */
+.advertisement {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.advertisement div {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    height: 275px;
+    background: rgba(19, 19, 19, 0.420);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 500;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.advertisement a {
+    display: flex;
+    align-items: center;
+}
+
+.advertisement a p:first-child {
+    font-size: var(--font-size-12px);
+    font-weight: 400;
+}
+
+.advertisement a p:last-child {
+    font-size: 10px;
+    opacity: .5;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transform: translateY(-1px);
+}
+
+.advertisement__text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

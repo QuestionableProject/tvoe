@@ -1,0 +1,28 @@
+.tape__card {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.tape__info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+.tape__card p:first-child {
+    font-size: var(--font-size-16px);
+    font-weight: 400;
+}
+.tape__info p:first-child {
+    font-size: var(--font-size-14px);
+    font-weight: 400;
+    opacity: .5;
+}
+.topic {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: var(--color-orange);
+    color: white;
+    font-size: var(--font-size-12px);
+    font-weight: 500;
+}
